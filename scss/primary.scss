@@ -1,0 +1,46 @@
+// Veriable
+    $color-light: #fff;
+    $color-dark: #222;
+    $color-success: #8dc572;
+    $color-error: #be6464;
+    $color-warning: #f0ad4e;
+    $color-info: #337ab7;
+    $opacity: 0.9;
+    $transition-show-delay: 0.15s;
+    $transition-closing-delay: 0.15s;
+
+    // Templeat 
+    %DisplayTempleat{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // Mixin
+    @mixin text($color,$fz,$fw,$lh){
+        text-decoration: none;
+        color:$color-dark;
+        font-size:14px;
+        font-weight: bolder;
+    }
+
+
+    // General style 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: $color-light;
+    font-family: 'Golos Text';
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}

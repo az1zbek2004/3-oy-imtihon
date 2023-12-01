@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Golos Text";
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}/*# sourceMappingURL=primary.css.map */
