@@ -579,6 +579,7 @@ body{
 
 
             // offer to hidden 
+            
             .computer-image{
                 display: flex;
                 justify-content: center;
@@ -698,13 +699,73 @@ body{
                         } 
                        
                 }
-    }
-    }
+             
+}
+}
 .display-2{
     display: block;
     font-size: 24px;
     color:$color-dark;
     font-weight: 700;
 }
+
     }
+  
+}
+
+// POPULAR BRENDS 
+.brends{
+    .brends__container{
+      .brends--title{
+            font-weight: 700;
+            font-size: 24px;
+            color:$color-dark;
+            margin-bottom: 20px;
+        }
+
+        .visible{
+            @extend %DisplayTempleat;
+            gap: 8px;
+            margin-bottom: 30px;
+        .brends--visible{
+            padding: 26px 80px;
+            border:2px solid rgb(245, 245, 246);
+            border-radius:20px;
+            width: 300px;
+           .visible__logo{
+            width: 124px;
+            height: 64px;
+            
+           }
+           }
+        }
+
+    }
+}
+
+// CAUSE TO SELECT 
+.cause-select{
+    .cause-select__container{
+        .cause--title{
+            font-weight: 700;
+            font-size: 24px;
+            color:$color-dark;
+            margin-bottom: 20px;
+            
+        }
+
+    }
+    
+}
+.cause__cards{
+    padding-top: 20px;
+  .cause--card{
+    padding: 16px;
+    border:2px solid #eee9e9;
+    width: 355px;
+    img{
+        background-color:rgb(253, 245, 243)
+        w48+h48
+    }
+  }
 }

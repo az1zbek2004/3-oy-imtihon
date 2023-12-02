@@ -1,4 +1,4 @@
-.offer .offer__container .popular-product-collect .card-collect__item .card__icons, .offer .offer__container .popular-product-collect .card-collect__item .btn-thing, .offer .offer__container .popular-product-collect, .offer .offer__container .product__nav, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
+.brends .brends__container .visible, .offer .offer__container .popular-product-collect .card-collect__item .card__icons, .offer .offer__container .popular-product-collect .card-collect__item .btn-thing, .offer .offer__container .popular-product-collect, .offer .offer__container .product__nav, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -580,4 +580,44 @@ body {
   font-size: 24px;
   color: #222222;
   font-weight: 700;
+}
+
+.brends .brends__container .brends--title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.brends .brends__container .visible {
+  gap: 8px;
+  margin-bottom: 30px;
+}
+.brends .brends__container .visible .brends--visible {
+  padding: 26px 80px;
+  border: 2px solid rgb(245, 245, 246);
+  border-radius: 20px;
+  width: 300px;
+}
+.brends .brends__container .visible .brends--visible .visible__logo {
+  width: 124px;
+  height: 64px;
+}
+
+.cause-select .cause-select__container .cause--title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.cause__cards {
+  padding-top: 20px;
+}
+.cause__cards .cause--card {
+  padding: 16px;
+  border: 2px solid #eee9e9;
+  width: 355px;
+}
+.cause__cards .cause--card img {
+  background-color: rgb(253, 245, 243) w48h48;
 }/*# sourceMappingURL=primary.css.map */
