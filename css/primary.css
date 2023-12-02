@@ -1,4 +1,4 @@
-.prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
+.offer .offer__container .popular-product-collect .card-collect__item .card__icons, .offer .offer__container .popular-product-collect .card-collect__item .btn-thing, .offer .offer__container .popular-product-collect, .offer .offer__container .product__nav, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -365,4 +365,219 @@ body {
 
 .carousel--slide .carousel__container .carousel-item {
   border-radius: 20px;
+}
+
+.offer .offer__container {
+  margin-top: 30px;
+  padding-left: 12px;
+}
+.offer .offer__container .product__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222222;
+}
+.offer .offer__container .product__nav {
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 0px;
+}
+.offer .offer__container .product__nav .nav-item .nav-link {
+  padding: 6px 14px;
+  color: rgb(108, 113, 120);
+  font-weight: 400;
+  font-size: 12px;
+  background-color: hsl(180, 7%, 97%);
+  border-radius: 40px;
+}
+.offer .offer__container .product__nav .nav-item .nav-link1 {
+  padding: 6px 14px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: #222222;
+  border-radius: 40px;
+}
+.offer .offer__container .popular-product-collect {
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item {
+  width: 240px;
+  height: 547px;
+  padding: 12px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item:hover {
+  border: 1px solid rgba(108, 113, 120, 0.15);
+  border-radius: 20px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .btn-seccess {
+  width: 116px;
+  height: 26px;
+  background: #0e7e2e;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 12px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .btn-danger {
+  background: rgb(211, 33, 64);
+  padding: 4px 12px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .btn-enter::after {
+  background-image: linear-gradient(96deg, rgb(94, 199, 175) 1.66%, rgb(87, 90, 166) 98.13%);
+  content: "0-0-6";
+  padding: 4px 10px;
+  border-radius: 8px;
+  position: relative;
+  top: 200px;
+  left: -100px;
+  color: #FFF;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .btn-thing .btn-danger {
+  background: rgb(255, 0, 84);
+}
+.offer .offer__container .popular-product-collect .card-collect__item .btn-thing img {
+  padding-bottom: 20px;
+  width: 20px;
+  height: 40px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item p {
+  color: rgb(108, 113, 120);
+  margin-top: 8px;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: 500;
+}
+.offer .offer__container .popular-product-collect .card-collect__item h3 {
+  text-decoration: none;
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .btn-outline-primary {
+  color: rgb(11, 43, 94);
+  border-color: rgb(11, 43, 94);
+  padding: 4px 12px;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .btn-outline {
+  padding: 6px 8px;
+  color: rgb(217, 46, 21);
+  font-weight: 500;
+  font-size: 12px;
+  background-color: rgb(253, 245, 243);
+  border-radius: 6px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .computer-image {
+  display: flex;
+  justify-content: center;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .star-collect {
+  display: flex;
+  justify-content: center;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .computer-link {
+  text-align: center;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .computer-inner {
+  text-align: center;
+  margin-left: 35px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .computer-inner .computer-icon {
+  width: 16px;
+  height: 16px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .price-computer {
+  margin-top: 30px;
+  text-align: center;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .btn-grey {
+  background-color: #f1efef;
+  padding-left: 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius: 12px;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222222;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .btn-grey .price--button {
+  background-color: #fff;
+  padding: 11px;
+  border-radius: 12px;
+  margin-right: 5px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222222;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .inner-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 12px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .inner-box img {
+  width: 24px;
+  height: 24px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .inner-box span {
+  color: rgb(29, 36, 47);
+  font-weight: 500;
+  font-size: 12px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6c7178;
+  margin-top: 12px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .star-include {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 4px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .star-include img {
+  width: 16px;
+  height: 16px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .star-include span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6c7178;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .star--include {
+  margin-top: 40px;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .button-danger {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  margin-top: 12px;
+  width: 215px;
+  background-color: rgb(217, 46, 21);
+}
+.offer .offer__container .popular-product-collect .card-collect__item .card__icons .card--link {
+  padding: 10px 14px;
+  border-radius: 10px;
+  background-color: rgb(247, 248, 248);
+}
+.offer .offer__container .popular-product-collect .card-collect__item .card__icons .card--link img {
+  color: #fff;
+}
+.offer .offer__container .popular-product-collect .card-collect__item .card__icons .card--link1 {
+  padding: 10px 14px;
+  background-color: rgb(217, 46, 21);
+}
+.offer .offer__container .display-2 {
+  display: block;
+  font-size: 24px;
+  color: #222222;
+  font-weight: 700;
 }/*# sourceMappingURL=primary.css.map */
