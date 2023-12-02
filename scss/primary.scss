@@ -41,7 +41,7 @@ body{
     font-family: 'Golos Text';
     font-weight: 400;
 }
-.containers{
+.containers, .prices__container{
     max-width: 1440px;
     width: 100%;
     margin-right: auto;
@@ -248,7 +248,8 @@ body{
 .prices{
     .prices__container{
         padding-left: 12px;
-        margin: 30px 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         .product__title{
             font-size: 24px;
             font-weight: 700;
@@ -296,7 +297,7 @@ body{
             padding-left: 40px;
             padding-right: 40px;
             .card-collect__item{
-                width: 214px;
+                width: 240px;
                 height: 547px;
                 &:hover{
                     border:1px solid rgb(108, 113, 120, 0.15);
@@ -327,6 +328,17 @@ body{
                         color:#FFF;
                     
                 }
+                .btn-thing{
+                   @extend %DisplayTempleat;
+                   .btn-danger{
+                    background: rgb(255, 0, 84);
+                   }
+                   img{
+                   padding-bottom: 20px;
+                   width: 20px;
+                   height: 40px;
+                   }
+                }
                
                 p{
                     color:$color-dark-grey;
@@ -344,6 +356,14 @@ body{
                     padding: 4px 12px;
                     border-radius:12px;
                     margin-top: 12px;
+                }
+                .btn-outline{
+                    padding: 6px 8px;
+                    color: rgb(217 46 21);
+                    font-weight: 500;
+                    font-size: 12px;
+                    background-color: rgb(253 245 243);
+                    border-radius:6px;
                 }
                 .inner-box{
                     display: flex;
@@ -367,6 +387,8 @@ body{
                         color:$color-grey;
                         margin-top: 12px;
                     }
+
+                    // star 
                     .star-include{
                         display: flex;
                         align-items:center;
@@ -386,7 +408,18 @@ body{
                     .star--include{
                         margin-top: 40px;
                     }
-    
+                    
+                    // things card button 
+                    .button-danger{
+                        width: 100%;
+                        padding: 14px;
+                        border-radius:12px;
+                        margin-top: 12px;
+                        width: 215px;
+                        background-color:rgb(217, 46, 21);
+                    }
+
+                    // things card icons 
                     .card__icons{
                         @extend %DisplayTempleat;
                       
@@ -403,6 +436,7 @@ body{
                             background-color:rgb(217, 46, 21);
                                 
                             } 
+                           
                     }
         }
         }
@@ -415,4 +449,13 @@ body{
 }
 }
 
+}
+
+// CAROUSEL 
+.carousel--slide{
+    .carousel__container{
+        .carousel-item{ 
+            border-radius: 20px;            
+        }
+    }
 }

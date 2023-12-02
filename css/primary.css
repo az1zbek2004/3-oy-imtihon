@@ -1,4 +1,4 @@
-.prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
+.prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,7 +18,7 @@ body {
   font-weight: 400;
 }
 
-.containers {
+.containers, .prices__container {
   max-width: 1440px;
   width: 100%;
   margin-right: auto;
@@ -188,7 +188,8 @@ body {
 
 .prices .prices__container {
   padding-left: 12px;
-  margin: 30px 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .prices .prices__container .product__title {
   font-size: 24px;
@@ -229,7 +230,7 @@ body {
   padding-right: 40px;
 }
 .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item {
-  width: 214px;
+  width: 240px;
   height: 547px;
   padding: 12px;
 }
@@ -260,6 +261,14 @@ body {
   left: -100px;
   color: #FFF;
 }
+.prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing .btn-danger {
+  background: rgb(255, 0, 84);
+}
+.prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing img {
+  padding-bottom: 20px;
+  width: 20px;
+  height: 40px;
+}
 .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item p {
   color: rgb(108, 113, 120);
   margin-top: 8px;
@@ -279,6 +288,14 @@ body {
   padding: 4px 12px;
   border-radius: 12px;
   margin-top: 12px;
+}
+.prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-outline {
+  padding: 6px 8px;
+  color: rgb(217, 46, 21);
+  font-weight: 500;
+  font-size: 12px;
+  background-color: rgb(253, 245, 243);
+  border-radius: 6px;
 }
 .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .inner-box {
   display: flex;
@@ -319,6 +336,14 @@ body {
 .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .star--include {
   margin-top: 40px;
 }
+.prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .button-danger {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  margin-top: 12px;
+  width: 215px;
+  background-color: rgb(217, 46, 21);
+}
 .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons .card--link {
   padding: 10px 14px;
   border-radius: 10px;
@@ -336,4 +361,8 @@ body {
   font-size: 24px;
   color: #222222;
   font-weight: 700;
+}
+
+.carousel--slide .carousel__container .carousel-item {
+  border-radius: 20px;
 }/*# sourceMappingURL=primary.css.map */
