@@ -1,4 +1,4 @@
-.brends .brends__container .visible, .offer .offer__container .popular-product-collect .card-collect__item .card__icons, .offer .offer__container .popular-product-collect .card-collect__item .btn-thing, .offer .offer__container .popular-product-collect, .offer .offer__container .product__nav, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
+.cause-select .cause-select__container .cause__cards, .brends .brends__container .visible, .offer .offer__container .popular-product-collect .card-collect__item .card__icons, .offer .offer__container .popular-product-collect .card-collect__item .btn-thing, .offer .offer__container .popular-product-collect, .offer .offer__container .product__nav, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -587,6 +587,7 @@ body {
   font-size: 24px;
   color: #222222;
   margin-bottom: 20px;
+  margin-left: 12px;
 }
 .brends .brends__container .visible {
   gap: 8px;
@@ -603,21 +604,40 @@ body {
   height: 64px;
 }
 
-.cause-select .cause-select__container .cause--title {
+.cause-select .cause-select__container .cause__title {
   font-weight: 700;
   font-size: 24px;
   color: #222222;
   margin-bottom: 20px;
+  margin-left: 12px;
 }
-
-.cause__cards {
+.cause-select .cause-select__container .cause__cards {
   padding-top: 20px;
+  margin: 0 12px;
+  margin-bottom: 50px;
+  gap: 10px;
 }
-.cause__cards .cause--card {
+.cause-select .cause-select__container .cause__cards .cause--card {
   padding: 16px;
   border: 2px solid #eee9e9;
-  width: 355px;
+  border-radius: 20px;
+  width: 370px;
 }
-.cause__cards .cause--card img {
-  background-color: rgb(253, 245, 243) w48h48;
+.cause-select .cause-select__container .cause__cards .cause--card img {
+  background-color: rgb(253, 245, 243);
+  padding: 12px;
+  border-radius: 10px;
+}
+.cause-select .cause-select__container .cause__cards .cause--card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222222;
+  margin-top: 20px;
+}
+.cause-select .cause-select__container .cause__cards .cause--card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  tab-size: 4;
+  color: rgb(108, 113, 120);
 }/*# sourceMappingURL=primary.css.map */

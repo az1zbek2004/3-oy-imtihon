@@ -721,6 +721,7 @@ body{
             font-size: 24px;
             color:$color-dark;
             margin-bottom: 20px;
+            margin-left: 12px;
         }
 
         .visible{
@@ -746,26 +747,47 @@ body{
 // CAUSE TO SELECT 
 .cause-select{
     .cause-select__container{
-        .cause--title{
-            font-weight: 700;
-            font-size: 24px;
-            color:$color-dark;
-            margin-bottom: 20px;
-            
-        }
-
-    }
+        
+.cause__title{
+    font-weight: 700;
+    font-size: 24px;
+    color:$color-dark;
+    margin-bottom: 20px;
+    margin-left: 12px;
     
 }
 .cause__cards{
     padding-top: 20px;
+    margin: 0 12px;
+    margin-bottom: 50px;
+    @extend %DisplayTempleat;
+    gap: 10px;
   .cause--card{
     padding: 16px;
     border:2px solid #eee9e9;
-    width: 355px;
+    border-radius:20px;
+    width: 370px;
     img{
-        background-color:rgb(253, 245, 243)
-        w48+h48
+        background-color:rgb(253, 245, 243);
+        padding: 12px;
+        border-radius:10px;
+    }
+    h3{
+        font-size: 16px;
+        font-weight: 700;
+        color:$color-dark;
+        margin-top: 20px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        tab-size: 4 ;
+        color: rgb(108, 113, 120);
+
     }
   }
+}
+}
+    
 }
