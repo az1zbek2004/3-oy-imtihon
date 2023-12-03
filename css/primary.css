@@ -175,9 +175,14 @@ body {
 }
 .hero .hero__container .hero--nav .nav-item .nav-link {
   cursor: pointer;
+  transition: all 0.5s;
   font-size: 14px;
   font-weight: 400;
   color: rgb(108, 113, 120);
+}
+.hero .hero__container .hero--nav .nav-item .nav-link:hover{
+  color: blue;
+  text-decoration: underline;
 }
 .hero .hero__container .hero--nav .nav-item .link {
   color: #fff;
@@ -258,6 +263,11 @@ body {
   font-size: 12px;
   background-color: hsl(180, 7%, 97%);
   border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.prices .prices__container .product__nav .nav-item .nav-link:hover{
+  background-color: hsl(180, 4%, 86%);
 }
 .prices .prices__container .product__nav .nav-item .nav-link1 {
   padding: 6px 14px;
@@ -453,6 +463,11 @@ body {
   font-size: 12px;
   background-color: hsl(180, 7%, 97%);
   border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.offer .offer__container .product__nav .nav-item .nav-link:hover{
+  background-color: hsl(180, 4%, 86%);
 }
 .offer .offer__container .product__nav .nav-item .nav-link1 {
   padding: 6px 14px;
