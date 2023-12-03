@@ -678,6 +678,26 @@ body {
   bottom: 12px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1256px) {
   .header__container .btn {
     display: none;
@@ -693,6 +713,9 @@ body {
   .visible4 {
     display: none;
   }
+  .header--search{
+    display: none;
+}
   .store--text {
     display: flex;
     flex-direction: column;
@@ -715,3 +738,8 @@ body {
     display: none;
   }
 }/*# sourceMappingURL=primary.css.map */
+@media screen and (max-width:700px) {
+  .picture4{
+      display: none;
+  }
+} 

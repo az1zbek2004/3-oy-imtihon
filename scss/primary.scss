@@ -836,7 +836,7 @@ body{
 // FOOTER SECTION 
 .footer{
     .footer__container{
-
+       display: flex;
     }
 }
 
@@ -890,4 +890,10 @@ body{
 .store-image{
     display: none;
 }
+}
+
+@media screen and (max-width:700px) {
+    .picture4{
+        display: none;
+    }
 }
