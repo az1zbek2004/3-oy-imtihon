@@ -1,4 +1,4 @@
-.cause-select .cause-select__container .cause__cards, .brends .brends__container .visible, .offer .offer__container .popular-product-collect .card-collect__item .card__icons, .offer .offer__container .popular-product-collect .card-collect__item .btn-thing, .offer .offer__container .popular-product-collect, .offer .offer__container .product__nav, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
+.store .store__container, .cause-select .cause-select__container .cause__cards, .brends .brends__container .visible, .offer .offer__container .popular-product-collect .card-collect__item .card__icons, .offer .offer__container .popular-product-collect .card-collect__item .btn-thing, .offer .offer__container .popular-product-collect, .offer .offer__container .product__nav, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .card__icons, .prices .prices__container .product__card-collect .popular-product-collect .card-collect__item .btn-thing, .prices .prices__container .product__card-collect .popular-product-collect, .prices .prices__container .product__nav, .collection .collection__container .collectiion--picture, .collection .collection__container .collection--title, .hero .hero__container .hero--nav .navbar-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -614,7 +614,7 @@ body {
 .cause-select .cause-select__container .cause__cards {
   padding-top: 20px;
   margin: 0 12px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   gap: 10px;
 }
 .cause-select .cause-select__container .cause__cards .cause--card {
@@ -640,4 +640,78 @@ body {
   line-height: 21px;
   tab-size: 4;
   color: rgb(108, 113, 120);
+}
+
+.store .store__container {
+  background-color: rgb(241, 242, 244);
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 340px;
+  position: relative;
+}
+.store .store__container .store--text {
+  width: 40vw;
+}
+.store .store__container .store--text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(34, 44, 58);
+  color: #222222;
+  line-height: 48px;
+  margin-top: 20px;
+}
+.store .store__container .store--text p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 28vw;
+  line-height: 24px;
+  tab-size: 4;
+  color: rgb(108, 113, 120);
+}
+.store .store__container .store--text .store--button {
+  display: flex;
+  gap: 15px;
+}
+.store .store__container .store-image {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}
+
+@media screen and (max-width: 1256px) {
+  .header__container .btn {
+    display: none;
+  }
+  .header__container .header--search {
+    width: 100px;
+  }
+  .hero__container .hero--nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .visible4 {
+    display: none;
+  }
+  .store--text {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+  }
+  .store--text p {
+    width: 40vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .store--button {
+    margin-top: 0 auto;
+    
+  }
+  .store-image {
+    display: none;
+  }
 }/*# sourceMappingURL=primary.css.map */

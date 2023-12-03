@@ -759,7 +759,7 @@ body{
 .cause__cards{
     padding-top: 20px;
     margin: 0 12px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     @extend %DisplayTempleat;
     gap: 10px;
   .cause--card{
@@ -790,4 +790,104 @@ body{
 }
 }
     
+}
+
+// STORE 
+.store{
+    .store__container{
+        background-color:rgb(241, 242, 244);
+        padding-left:12px;
+        padding-right: 12px;
+        height: 340px;
+        position: relative;
+        @extend %DisplayTempleat;
+        .store--text{
+            width: 40vw;
+            h2{
+                font-size: 32px;
+                font-weight: 700;
+                color: rgb(34, 44, 58);
+                color:$color-dark;
+                line-height: 48px;
+                margin-top: 20px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                width: 28vw;
+                line-height: 24px;
+                tab-size: 4 ;
+                color: rgb(108, 113, 120);
+            }
+        
+        .store--button{
+            display: flex;
+            gap: 15px;
+        }
+      }   
+        .store-image{
+            position: absolute;
+            right: 12px;
+            bottom:12px ;
+        }
+    }
+}   
+
+// FOOTER SECTION 
+.footer{
+    .footer__container{
+
+    }
+}
+
+
+
+
+// RESPONSIVE
+@media screen and (max-width:1256px) {
+    .header__container{
+        .btn{
+            display: none;
+        }
+        .header--search{
+            width: 100px;
+        }
+    }
+    .hero__container{
+        .hero--nav{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width:1002px) {
+.visible4{
+    display: none;
+}
+.header__container{
+    .header--search{
+        display: none;
+    }
+}
+.store--text{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    p{
+        width: 40vw;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}
+.store--button{
+    margin-top: 0 auto;
+    @extend %DisplayTempleat;
+    padding:0 auto;
+}
+.store-image{
+    display: none;
+}
 }
