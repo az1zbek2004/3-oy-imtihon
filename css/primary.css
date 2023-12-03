@@ -646,7 +646,7 @@ body {
   background-color: rgb(241, 242, 244);
   padding-left: 12px;
   padding-right: 12px;
-  height: 340px;
+  height: 328px;
   position: relative;
 }
 .store .store__container .store--text {
@@ -675,15 +675,167 @@ body {
 .store .store__container .store-image {
   position: absolute;
   right: 12px;
-  bottom: 12px;
+  bottom:0;
+}
+
+/* FOOTER  */
+
+.footer {
+  background-color:rgb(29, 37, 48);
+}
+
+.footer__container {
+  padding:64px 15px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 10px;
+  padding-right: 30px;
+}
+.footer__logo {
+  width: 300px;
+}
+.footer__container .footer__logo a.logotip {
+  margin-left: 30px;
+  color:#fff;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom:30px;
+}
+.footer__container .wrapper{
+  margin-top: 20px;
+}
+.footer .footer__container .nav-link {
+  color:#FFF;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer .footer__container .nav-item .link1{
+  font-size: 14px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.footer .footer__container .nav-item .link2{
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer__karta {
+  /* max-width: 345px; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.footer__karta .card-link{
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+.card-collection {
+  display: flex;
+  flex-direction: column;
+}
+.two-time-cards a{
+ padding: 14px 32px; 
+ background-color: rgb(34, 44, 58);
+ margin: 5px;
+border-radius:10px;
+}
+.humo-card {
+  width: 80px;
+  height: 40px;
+}
+.uzcard-card {
+  width: 25px;
+  height: 40px;
+}
+.click-card {
+  width: 80px;
+  height: 80px;
+}
+.payme-card {
+  width: 70px;
+  height: 30px;
+}
+.two-time-cards .uzcard-link{
+  padding: 14px 54px;
+}
+.two-time-cards .visa-link{
+  padding: 14px 48px;
+}
+.two-time-cards .master-link{
+  padding: 14px 46px;
+}
+.visa-card {
+  width: 48px;
+  height: 30px;
+}
+.master-card {
+  width: 40px;
+  height: 40px;
+}
+.footer__list {
+  display: flex;
+  align-items:flex-start  ;
+  justify-content: space-between;
+  width: 500px;
+}
+.list-wrap {
+  margin-top: 12px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.list-wrap .nav-link{
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0.5;
+  color: rgb(245, 245, 246);
+
+}
+.list-wrap .nav-link:hover{
+  opacity: 1;
+  color:white;
+}
+.list-wrap .links {
+  opacity: 1;
+  color:#fff;
+  font-weight: 700;
+  margin-bottom: 17px;
+
 }
 
 
-
-
-
-
-
+/* FOOTER BOOTONS  */
+.footer-bottom{
+  background-color: rgb(34, 44, 58);
+  }
+  .bottom__container{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 12px;
+    padding-bottom: 10px;
+  }
+  .bottom__container .bottom--text{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .bottom__container .bottom-icons{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .bottom__container .bottom-icons .fa-brands{
+    width: 24px;
+    height: 24px;
+    color:white;
+  }
 
 
 
@@ -706,6 +858,9 @@ body {
     width: 100px;
   }
   .hero__container .hero--nav {
+    display: none;
+  }
+  .footer .footer__karta{
     display: none;
   }
 }
@@ -739,7 +894,10 @@ body {
   }
 }/*# sourceMappingURL=primary.css.map */
 @media screen and (max-width:700px) {
-  .picture4{
-      display: none;
-  }
+ .collection .collection__container .collectiion--picture .picture4{
+  display: none;
+ }
+ .store .store__container .store--button a img{
+  display: none;
+ }
 } 
